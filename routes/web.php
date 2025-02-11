@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/posts/{posts}/coments/{coment}', function ($postId, $comentId) {
-    return "Post ID: $postId, Comment ID: $comentId";
+Route::get('/user/{nama}', function ($nama) {
+    return "Halo, $nama!";
 });
